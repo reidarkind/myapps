@@ -221,6 +221,12 @@ h2 {
   }
 }
 
+@media (min-width: 980px) {
+  .apps {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .card {
   display: flex;
   flex-direction: column;
