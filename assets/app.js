@@ -52,6 +52,12 @@ function render(locale) {
       node.textContent = t(key);
     }
   });
+  document.querySelectorAll("[data-i18n-alt]").forEach((node) => {
+    const key = node.getAttribute("data-i18n-alt");
+    if (key) {
+      node.setAttribute("alt", t(key));
+    }
+  });
   if (elements.langGroup) {
     elements.langGroup.setAttribute("aria-label", t("langLabel"));
     elements.langGroup.querySelectorAll("[data-lang]").forEach((button) => {

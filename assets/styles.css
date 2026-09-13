@@ -121,6 +121,23 @@ a:hover {
   font-size: 0.98rem;
 }
 
+.header-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.55rem;
+}
+
+.bmc {
+  line-height: 0;
+}
+
+.bmc img {
+  width: 184px;
+  height: auto;
+  display: block;
+}
+
 .lang {
   display: flex;
   flex-wrap: wrap;
@@ -324,15 +341,9 @@ h2 {
   max-width: 38rem;
 }
 
-.btn-coffee {
+.support .bmc {
+  display: inline-block;
   margin-top: 1.1rem;
-  background: var(--gold);
-  color: var(--gold-ink);
-}
-
-.btn-coffee:hover {
-  background: #e0b02a;
-  color: var(--gold-ink);
 }
 
 .site-footer {
@@ -346,7 +357,9 @@ h2 {
     flex-direction: column;
   }
 
+  .header-actions,
   .lang {
+    align-items: flex-start;
     justify-content: flex-start;
   }
 }
