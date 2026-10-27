@@ -1,6 +1,6 @@
 # myapps
 
-Portal for hobbyappene [Bananmatte](https://reidarkind.github.io/bananmatte/), [StoreAlfabet](https://reidarkind.github.io/storealfabet/) og [FactHunter](https://reidarkind.github.io/facthunter/).
+Portal for hobbyappene [Bananmatte](https://reidarkind.github.io/bananmatte/), [StoreAlfabet](https://reidarkind.github.io/storealfabet/), [FactHunter](https://reidarkind.github.io/facthunter/) og [HIIT](https://reidarkind.github.io/hiit/).
 
 Live: [reidarkind.github.io/myapps](https://reidarkind.github.io/myapps/)
 

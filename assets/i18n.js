@@ -20,14 +20,14 @@ const translations = {
   no: {
     metaTitle: "Reidar Kind — hobbyapper",
     metaDescription:
-      "Oversikt over hobbyappene Bananmatte, StoreAlfabet og FactHunter. Alt lagres på telefonen. Bruk på eget ansvar.",
+      "Oversikt over hobbyappene Bananmatte, StoreAlfabet, FactHunter og HIIT. Alt lagres på telefonen. Bruk på eget ansvar.",
     skip: "Hopp til innhold",
     brand: "Reidar Kind",
     tagline: "Hobbyapper som bor på telefonen din.",
     langLabel: "Språk",
     appsTitle: "Appene",
     appsIntro:
-      "Tre apper så langt. Alle åpnes i nettleseren og kan legges på hjemskjermen. Ingen appbutikk, ingen konto.",
+      "Fire apper så langt. Alle åpnes i nettleseren og kan legges på hjemskjermen. Ingen appbutikk, ingen konto.",
     "bananmatte.name": "Bananmatte",
     "bananmatte.devices": "Nettbrett og telefon",
     "bananmatte.lead": "Gjør apestreker. Regn etterpå.",
@@ -46,6 +46,12 @@ const translations = {
     "facthunter.body":
       "En tynn jakt over Wikipedia. Når du er nær, pek kameraet, se steder som skilt i gata, lås dem opp og samle dem på telefonen. Samlingen ligger i nettleseren på den telefonen — ingen sky.",
     "facthunter.cta": "Åpne FactHunter",
+    "hiit.name": "HIIT",
+    "hiit.devices": "Telefon",
+    "hiit.lead": "Herlig iblant intensiv trening.",
+    "hiit.body":
+      "Kroppsvekt, stol, lette vekter, pilatesball, strikk og løpeintervaller. Ferdige økter og egne, med figur og muskler. Streak, morgenfugl og en plan: fast uke, eller en bestemt dag. Alt blir på telefonen. Treningsforslag, ikke medisinsk råd.",
+    "hiit.cta": "Åpne HIIT",
     madeTitle: "Slik er de laget",
     madeBody:
       "Enkle webapper (PWA) som kjører i nettleseren og kan installeres på hjemskjermen. De er bygget med Vite og TypeScript og ligger på GitHub Pages. Ingen egen server, ingen innlogging. Bananmatte og StoreAlfabet lagrer innstillinger og rekorder i localStorage. FactHunter lagrer samlingen i IndexedDB. FactHunter henter lesende oppslag fra Wikipedia; ingenting sendes til meg.",
@@ -64,14 +70,14 @@ const translations = {
   en: {
     metaTitle: "Reidar Kind — hobby apps",
     metaDescription:
-      "A portal to the hobby apps Bananmatte, StoreAlfabet and FactHunter. Everything stays on your phone. Use at your own risk.",
+      "A portal to the hobby apps Bananmatte, StoreAlfabet, FactHunter and HIIT. Everything stays on your phone. Use at your own risk.",
     skip: "Skip to content",
     brand: "Reidar Kind",
     tagline: "Hobby apps that live on your phone.",
     langLabel: "Language",
     appsTitle: "The apps",
     appsIntro:
-      "Three so far. All open in the browser and can be added to your home screen. No app store, no account.",
+      "Four so far. All open in the browser and can be added to your home screen. No app store, no account.",
     "bananmatte.name": "Bananmatte",
     "bananmatte.devices": "Tablets and phones",
     "bananmatte.lead": "Monkey around. Then do the maths.",
@@ -90,6 +96,12 @@ const translations = {
     "facthunter.body":
       "A thin hunt on top of Wikipedia. When you are close, point the camera, see places as street signs, unlock them, and keep them on your phone. The collection lives in that browser on that phone — no cloud.",
     "facthunter.cta": "Open FactHunter",
+    "hiit.name": "HIIT",
+    "hiit.devices": "Phones",
+    "hiit.lead": "Pleasant, occasionally intense training.",
+    "hiit.body":
+      "Bodyweight, a chair, light dumbbells, a pilates ball, a band, and easy run intervals. Ready-made sessions and your own, with a figure and the muscles that work. A streak, an early-bird streak, and a plan: the same week, or one particular day. It stays on the phone. Training ideas, not medical advice.",
+    "hiit.cta": "Open HIIT",
     madeTitle: "How they are made",
     madeBody:
       "Simple web apps (PWAs) that run in the browser and can be installed on the home screen. They are built with Vite and TypeScript and hosted on GitHub Pages. No server of my own, no login. Bananmatte and StoreAlfabet keep settings and high scores in localStorage. FactHunter keeps the collection in IndexedDB. FactHunter only reads from Wikipedia; nothing is sent to me.",
@@ -108,14 +120,14 @@ const translations = {
   de: {
     metaTitle: "Reidar Kind — Hobby-Apps",
     metaDescription:
-      "Überblick über die Hobby-Apps Bananmatte, StoreAlfabet und FactHunter. Alles bleibt auf dem Telefon. Nutzung auf eigene Gefahr.",
+      "Überblick über die Hobby-Apps Bananmatte, StoreAlfabet, FactHunter und HIIT. Alles bleibt auf dem Telefon. Nutzung auf eigene Gefahr.",
     skip: "Zum Inhalt springen",
     brand: "Reidar Kind",
     tagline: "Hobby-Apps, die auf deinem Telefon leben.",
     langLabel: "Sprache",
     appsTitle: "Die Apps",
     appsIntro:
-      "Drei bisher. Alle öffnen sich im Browser und können auf den Startbildschirm. Kein App-Store, kein Konto.",
+      "Vier bisher. Alle öffnen sich im Browser und können auf den Startbildschirm. Kein App-Store, kein Konto.",
     "bananmatte.name": "Bananmatte",
     "bananmatte.devices": "Tablets und Telefone",
     "bananmatte.lead": "Affenstreiche machen. Danach rechnen.",
@@ -134,6 +146,12 @@ const translations = {
     "facthunter.body":
       "Eine dünne Jagd über Wikipedia. Wenn du nah bist, richte die Kamera, sieh Orte als Straßenschilder, schalte sie frei und sammle sie auf dem Telefon. Die Sammlung liegt in diesem Browser auf diesem Telefon — keine Cloud.",
     "facthunter.cta": "FactHunter öffnen",
+    "hiit.name": "HIIT",
+    "hiit.devices": "Telefone",
+    "hiit.lead": "Angenehm, ab und zu intensiv.",
+    "hiit.body":
+      "Körpergewicht, ein Stuhl, leichte Hanteln, ein Pilatesball, ein Band und einfache Laufintervalle. Fertige Einheiten und eigene, mit Figur und den Muskeln, die arbeiten. Eine Serie, eine Morgen-Serie und ein Plan: dieselbe Woche oder ein bestimmtes Datum. Alles bleibt auf dem Telefon. Trainingsvorschläge, kein medizinischer Rat.",
+    "hiit.cta": "HIIT öffnen",
     madeTitle: "So sind sie gemacht",
     madeBody:
       "Einfache Web-Apps (PWA), die im Browser laufen und auf den Startbildschirm können. Gebaut mit Vite und TypeScript, bereitgestellt über GitHub Pages. Kein eigener Server, keine Anmeldung. Bananmatte und StoreAlfabet speichern Einstellungen und Rekorde in localStorage. FactHunter speichert die Sammlung in IndexedDB. FactHunter liest nur von Wikipedia; nichts wird an mich gesendet.",
@@ -152,14 +170,14 @@ const translations = {
   es: {
     metaTitle: "Reidar Kind — apps de hobby",
     metaDescription:
-      "Portal de las apps de hobby Bananmatte, StoreAlfabet y FactHunter. Todo se guarda en el teléfono. Úsalas bajo tu responsabilidad.",
+      "Portal de las apps de hobby Bananmatte, StoreAlfabet, FactHunter y HIIT. Todo se guarda en el teléfono. Úsalas bajo tu responsabilidad.",
     skip: "Saltar al contenido",
     brand: "Reidar Kind",
     tagline: "Apps de hobby que viven en tu teléfono.",
     langLabel: "Idioma",
     appsTitle: "Las apps",
     appsIntro:
-      "Tres por ahora. Las tres se abren en el navegador y se pueden añadir a la pantalla de inicio. Sin tienda, sin cuenta.",
+      "Cuatro por ahora. Las cuatro se abren en el navegador y se pueden añadir a la pantalla de inicio. Sin tienda, sin cuenta.",
     "bananmatte.name": "Bananmatte",
     "bananmatte.devices": "Tabletas y teléfonos",
     "bananmatte.lead": "Haz travesuras. Luego calcula.",
@@ -178,6 +196,12 @@ const translations = {
     "facthunter.body":
       "Una caza ligera sobre Wikipedia. Cuando estás cerca, apunta la cámara, ve lugares como señales de la calle, desbloquéalos y recógelos en el teléfono. La colección vive en ese navegador en ese teléfono — sin nube.",
     "facthunter.cta": "Abrir FactHunter",
+    "hiit.name": "HIIT",
+    "hiit.devices": "Teléfonos",
+    "hiit.lead": "Entrenamiento agradable, a veces intenso.",
+    "hiit.body":
+      "Peso corporal, una silla, mancuernas ligeras, un balón de pilates, una banda e intervalos de carrera sencillos. Sesiones hechas y las tuyas, con una figura y los músculos que trabajan. Una racha, una racha de madrugador y un plan: la misma semana, o un día concreto. Todo se queda en el teléfono. Ideas de entrenamiento, no consejo médico.",
+    "hiit.cta": "Abrir HIIT",
     madeTitle: "Cómo están hechas",
     madeBody:
       "Apps web sencillas (PWA) que corren en el navegador y se pueden instalar en la pantalla de inicio. Están hechas con Vite y TypeScript y alojadas en GitHub Pages. Sin servidor propio, sin inicio de sesión. Bananmatte y StoreAlfabet guardan ajustes y récords en localStorage. FactHunter guarda la colección en IndexedDB. FactHunter solo lee de Wikipedia; no se me envía nada.",
@@ -196,14 +220,14 @@ const translations = {
   pt: {
     metaTitle: "Reidar Kind — apps de hobby",
     metaDescription:
-      "Portal das apps de hobby Bananmatte, StoreAlfabet e FactHunter. Tudo fica no telemóvel. Use por sua conta e risco.",
+      "Portal das apps de hobby Bananmatte, StoreAlfabet, FactHunter e HIIT. Tudo fica no telemóvel. Use por sua conta e risco.",
     skip: "Saltar para o conteúdo",
     brand: "Reidar Kind",
     tagline: "Apps de hobby que vivem no teu telemóvel.",
     langLabel: "Idioma",
     appsTitle: "As apps",
     appsIntro:
-      "Três por agora. Todas abrem no browser e podem ir para o ecrã inicial. Sem loja, sem conta.",
+      "Quatro por agora. Todas abrem no browser e podem ir para o ecrã inicial. Sem loja, sem conta.",
     "bananmatte.name": "Bananmatte",
     "bananmatte.devices": "Tablets e telemóveis",
     "bananmatte.lead": "Faz asneiras. Depois calcula.",
@@ -222,6 +246,12 @@ const translations = {
     "facthunter.body":
       "Uma caça leve por cima da Wikipédia. Quando estás perto, aponta a câmara, vê lugares como sinais na rua, desbloqueia-os e guarda-os no telemóvel. A coleção vive nesse browser nesse telemóvel — sem nuvem.",
     "facthunter.cta": "Abrir FactHunter",
+    "hiit.name": "HIIT",
+    "hiit.devices": "Telemóveis",
+    "hiit.lead": "Treino agradável, às vezes intenso.",
+    "hiit.body":
+      "Peso do corpo, uma cadeira, halteres leves, uma bola de pilates, um elástico e intervalos de corrida simples. Sessões prontas e as tuas, com uma figura e os músculos que trabalham. Uma sequência, uma sequência de madrugador e um plano: a mesma semana, ou um dia certo. Fica tudo no telemóvel. Ideias de treino, não conselho médico.",
+    "hiit.cta": "Abrir HIIT",
     madeTitle: "Como são feitas",
     madeBody:
       "Apps web simples (PWA) que correm no browser e se podem instalar no ecrã inicial. Feitas com Vite e TypeScript e alojadas no GitHub Pages. Sem servidor próprio, sem início de sessão. Bananmatte e StoreAlfabet guardam definições e recordes em localStorage. FactHunter guarda a coleção em IndexedDB. FactHunter só lê da Wikipédia; nada me é enviado.",
